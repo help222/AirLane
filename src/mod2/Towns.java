@@ -30,6 +30,7 @@ public class Towns {
             "Чернівці",
             "Чернігів",
     };
+
     public static List<String> TownList() {
         List<String> townList = new ArrayList<String>();
         for (int i = 0; i < towns.length; i++) {
